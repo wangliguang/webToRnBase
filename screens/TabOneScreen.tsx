@@ -18,6 +18,9 @@ export default function TabOneScreen({
       <TouchableOpacity onPress={() => goPage('FlexBoxPage')}>
         <Text>Flex Box</Text>
       </TouchableOpacity>
+      <TouchableOpacity onPress={() => goPage('SizeCompatiblePage')}>
+        <Text>设备尺寸兼容</Text>
+      </TouchableOpacity>
     </View>
   );
 }

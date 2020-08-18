@@ -2,6 +2,7 @@ export type RootStackParamList = {
   Root: undefined;
   NotFound: undefined;
   FlexBoxPage: undefined;
+  SizeCompatiblePage: undefined;
 };
 
 export type BottomTabParamList = {

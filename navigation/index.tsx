@@ -5,6 +5,7 @@ import { ColorSchemeName } from 'react-native';
 
 import NotFoundScreen from '../screens/NotFoundScreen';
 import FlexBoxPage from '../screens/FlexBoxPage';
+import SizeCompatiblePage from '../screens/SizeCompatiblePage';
 import { RootStackParamList } from '../types';
 import BottomTabNavigator from './BottomTabNavigator';
 import LinkingConfiguration from './LinkingConfiguration';
@@ -31,6 +32,7 @@ function RootNavigator() {
       <Stack.Screen name="Root" component={BottomTabNavigator} />
       <Stack.Screen name="NotFound" component={NotFoundScreen} options={{ title: 'Oops!' }} />
       <Stack.Screen name="FlexBoxPage" component={FlexBoxPage} options={{ title: 'xxxx' }} />
+      <Stack.Screen name="SizeCompatiblePage" component={SizeCompatiblePage} options={{ title: 'xxxx' }} />
     </Stack.Navigator>
   );
 }
